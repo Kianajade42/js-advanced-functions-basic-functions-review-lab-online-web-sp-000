@@ -8,6 +8,6 @@ function saturdayFun(activity="roller-skate")
 
 const wrapAdjective =function(flair="*"){
   return function(adjective="special"){
-    return ` You are ${flair}${adjective}${flair}!`
+    return `You are ${flair}${adjective}${flair}!`
   }
 }
