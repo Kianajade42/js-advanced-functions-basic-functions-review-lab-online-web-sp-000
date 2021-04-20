@@ -24,7 +24,7 @@ const Calculator = {
 }
 
 const actionApplyer= (number,array)
-let 1=number
+{let 1=number
  for (let i=0;i<array.length;i++){
    1=array[i](1)
  }
