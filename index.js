@@ -23,7 +23,7 @@ const Calculator = {
     {return a / b;}
 }
 
-const actionApplyer= (number,array)
+const actionApplyer=function (number,array)
 {let a=number
  for (let i=0;i<array.length;i++){
    a=array[i](a)
